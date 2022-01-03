@@ -1,0 +1,115 @@
+html {
+  padding: 3.7rem;
+  margin: 0px;
+  width: 100vw;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #EFF3F6;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+}
+
+h4 {
+  font-family: "Poppins", sans-serif;
+  color: #189E90;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+}
+
+.owl-stage-outer {
+  width: 100%;
+  height: 100%;
+}
+
+.owl-stage {
+  height: 100%;
+}
+
+.owl-item {
+  display: flex;
+  width: 50vw;
+  height: 90%;
+}
+
+.owl-carousel .owl-item img {
+  height: 95%;
+  width: 50%;
+  /*     animation: fadeIn; 
+      animation-duration: 4.5s;  */
+}
+
+.description__block {
+  padding: 4rem;
+  /*     animation: fadeIn;
+      animation-duration: 1.5s;  */
+}
+
+.owl-theme .owl-dots {
+  position: absolute;
+  top: 420px;
+  right: 612px;
+}
+
+.owl-theme .owl-nav [class*=owl-] {
+  background-color: white;
+  color: #189E90;
+}
+
+.owl-next span {
+  background-color: #189E90;
+  position: absolute;
+  font-size: 16px;
+  font-weight: 900;
+  border-radius: 5px;
+  height: 0.7rem;
+  width: 1rem;
+  padding: 1.2rem;
+  left: 768px;
+  top: 496px;
+}
+
+.owl-prev span {
+  background-color: white;
+  position: absolute;
+  font-size: 16px;
+  font-weight: 900;
+  border-radius: 5px;
+  height: 0.7rem;
+  width: 1rem;
+  padding: 1.2rem;
+  left: 714px;
+  top: 496px;
+}
+
+.readmore, .button-promotion {
+  padding: 0.5rem;
+  padding-left: 1.9rem;
+  padding-right: 1.9rem;
+  margin-right: 1rem;
+}
+
+.readmore a {
+  text-decoration: none;
+  color: #189E90;
+}
+
+.readmore {
+  border-color: #189E90;
+  border-radius: 5px;
+}
+
+.button-promotion {
+  background-color: #189E90;
+  border-color: #189E90;
+  color: white;
+  border-radius: 5px;
+}
+
+/*# sourceMappingURL=styles.css.map */

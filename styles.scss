@@ -1,0 +1,150 @@
+
+
+$font1: 'Poppins', sans-serif;
+$font2: 'Poppins', sans-serif;
+$font-text: 'Poppins', sans-serif;
+
+$corporate1: #189E90;
+$corporate2: #EFF3F6;
+
+
+html{
+    padding: 3.7rem;
+    margin: 0px;
+    width: 100vw;
+}
+
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: $corporate2
+}
+
+
+
+
+
+// FONT AND HEADER FONTS STYLES -------------------------------------------------------------------------
+
+h1{
+    font-family: $font1;
+}
+
+h4{
+    font-family: $font2;
+    color: $corporate1
+}
+
+p{
+    font-family: $font-text;
+}
+
+
+// MAIN IMG AND DESCRIPTION STYLES ------------------------------------------------------------------------
+
+.owl-stage-outer{
+    width: 100%;
+    height: 100%;
+}
+
+.owl-stage {
+    height: 100%;
+  }
+
+  
+.owl-item{
+    display: flex;
+    width: 50vw;
+    height: 90%;
+    
+}
+
+.owl-carousel .owl-item img {
+    height: 95%;
+    width: 50%;
+/*     animation: fadeIn; 
+    animation-duration: 4.5s;  */
+  }
+  
+
+.description__block{
+    padding: 4rem;
+/*     animation: fadeIn;
+    animation-duration: 1.5s;  */
+}
+
+
+
+
+// ARROWS, DOTS AND PAGINATION BUTTONS STYLES.-------------------------------------------------------------------------------
+
+.owl-theme .owl-dots{
+    position: absolute;
+    top: 420px;
+    right:612px;
+}
+
+
+.owl-theme .owl-nav [class*=owl-]{
+    background-color: white;
+    color: $corporate1;
+} 
+
+
+ .owl-next span {
+    background-color: $corporate1;
+    position: absolute;
+    font-size: 16px;
+    font-weight: 900;
+    border-radius: 5px;
+    height: 0.7rem;
+    width: 1rem;
+    padding: 1.2rem;
+    left: 768px;
+    top: 496px;
+  }
+  
+  .owl-prev span {
+    background-color: white;
+    position: absolute;
+    font-size: 16px;
+    font-weight: 900;
+    border-radius: 5px;
+    height: 0.7rem;
+    width: 1rem;
+    padding: 1.2rem;
+    left: 714px;
+    top: 496px;
+  }
+
+
+  // BUTTON STYLES.----------------------------------------------------------------------------------------
+.readmore, .button-promotion{
+    padding: 0.5rem;
+    padding-left: 1.9rem;
+    padding-right: 1.9rem;
+    margin-right: 1rem;
+}
+
+.readmore a{
+    text-decoration: none;
+    color: $corporate1;
+}
+
+.readmore{
+    border-color: $corporate1;
+    border-radius: 5px;
+    
+}
+
+.button-promotion{
+    background-color: $corporate1;
+    border-color: $corporate1;
+    color:white;
+    border-radius: 5px;
+}
+//--------------------------------------------------------------------------------------------------------
+
+
+
